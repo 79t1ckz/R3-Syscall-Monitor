@@ -31,6 +31,11 @@ Counter can show call frequency and count.
 
 Logger can show caller's return-back chain and thread's id, it can also show the records one-by-one or stack them.
 
+![](snapshots/1.png)
+![](snapshots/2.png)
+![](snapshots/3.png)
+![](snapshots/4.png)
+![](snapshots/5.png)
 
 # What should I notice ?
 This tool is only for WINDOWS and X86-64, maybe support more in the future.
