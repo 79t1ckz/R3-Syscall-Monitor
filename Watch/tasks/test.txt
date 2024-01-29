@@ -1,0 +1,8 @@
+//<kernel32.dll>
+//	"QueryPerformanceCounter"
+//</kernel32.dll>
+
+<ntdll.dll>
+	"RtlQueryPerformanceCounter"
+	"NtQueryPerformanceCounter"
+</ntdll.dll>
