@@ -40,7 +40,7 @@ Logger can show caller's return-back chain and thread's id, it can also show the
 # What should I notice ?
 This tool is only for WINDOWS and X86-64, maybe support more in the future.
 
-Logger module may be not very stable if you want to trace a RANDOM address. ( fxsave is not used )
+Logger module may be not very stable if you want to trace a RANDOM address. ( fxsave is not used, maybe used in the future )
 
 If you want to trace a game, counter is better.
 
