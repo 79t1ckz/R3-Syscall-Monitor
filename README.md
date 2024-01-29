@@ -24,11 +24,18 @@ create a txt file in the "/tasks" directory as a "task set", the basic grammar j
   &lt;/module2&gt;
   
 use "hook" command to apply them.
+
 Counter module and logger module show the call records. 
+
 Counter can show call frequency and count. 
+
 Logger can show caller's return-back chain and thread's id, it can also show the records one-by-one or stack them.
+
 
 # What should I notice ?
 This tool is only for WINDOWS and X86-64, maybe support more in the future.
+
 Logger module may be not very stable if you want to trace a RANDOM address. ( fxsave is not used )
+
 If you want to trace a game, counter is better.
+
