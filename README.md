@@ -4,7 +4,7 @@ Trace Random func call ( not just syscall ) in only usermode, without debugger f
 # How to trace function what I want ?
 create a txt file in the "/tasks" directory as a "task set", the basic grammar just like:
 
-  "<"module1">"  // please erase "
+  &lt;module1&gt;
 
   // This is a comment
   
@@ -14,14 +14,14 @@ create a txt file in the "/tasks" directory as a "task set", the basic grammar j
     
     +0x1234     // <- Rva from Image Base
     
-  "<"/module1">"
+  &lt;/module1&gt;
   
 
-  "<"module2">"
+  &lt;module2&gt;
     
   ...
   
-  "<"/module2">"
+  &lt;/module2&gt;
   
 use "hook" command to apply them.
 Counter module and logger module show the call records. 
