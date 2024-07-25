@@ -1,5 +1,5 @@
 # R3-Syscall-Monitor
-Trace Random func call ( not just syscall ) in only usermode, without debugger framework, and keeps process in a normal speed.
+Trace Random func call ( not just syscall ) in only usermode, without debugger framework, and * keeps process in a normal speed *.
 
 # How to trace function what I want ?
 create a txt file in the "/tasks" directory as a "task set", the basic grammar just like:
@@ -42,5 +42,5 @@ This tool is only for WINDOWS and X86-64, maybe support more in the future.
 
 Logger module may be not very stable if you want to trace a RANDOM address. ( fxsave is not used, maybe used in the future )
 
-If you want to trace a game, counter is better.
+If you want to trace a game, the counter module is better.
 
